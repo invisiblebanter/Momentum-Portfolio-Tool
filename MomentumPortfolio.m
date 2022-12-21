@@ -91,7 +91,7 @@ momentum.mom=momentum.mom10 - momentum.mom1;
 
 %Remove the first 11 rows of Nan
 momentum=momentum(13:end,:);
-save('Momentum_Sol_Assignment');
+save('Momentum_Portfolio');
 
 %CALCULATE CUMULATIVE RETURNS
 %Add momentum.cumulativeRet, the cumulative net return on the long-short momentum 
